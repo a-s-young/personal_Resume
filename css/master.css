@@ -14,3 +14,24 @@
   text-align: left;
   margin-left: 25px;
 }
+
+#banner .navigation {
+  background-color: navy;
+  text-align: center;
+  margin: 20px 300px;
+}
+
+#banner .navigation ul {
+  margin: 0;
+  padding: 0;
+
+}
+
+#banner .navigation li {
+
+}
+
+#banner .navigation a {
+  color: white;
+  font-size: 18px;
+}
