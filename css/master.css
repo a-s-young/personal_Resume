@@ -1,6 +1,7 @@
 #banner {
   background-color: darkblue;
   padding: 20px;
+  border:
 }
 
 #banner h1 {
@@ -38,9 +39,10 @@
 }
 
 h2 {
+  color: white;
   text-align: center;
   padding: 10px;
-  border: 2px solid black;
+  border: 5px inset navy;
   border-radius: 50px;
   background-color: blue;
 }
