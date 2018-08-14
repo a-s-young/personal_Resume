@@ -1,14 +1,18 @@
+html {
+  background-color: gray;
+}
+
 #banner {
   background-color: darkblue;
   padding: 20px;
-  border:
+  border: 10px dashed black;
+  border-radius: 25px;
 }
 
 #banner h1 {
   color: white;
   text-align: left;
   margin: 0 auto;
-
 }
 
 #banner p {
@@ -18,9 +22,9 @@
 }
 
 #banner .navigation {
-  background-color: navy;
   text-align: center;
-  margin: 20px 300px;
+  margin: 20px 50px;
+
 }
 
 #banner .navigation ul {
@@ -31,6 +35,10 @@
 
 #banner .navigation li {
   display: inline-block;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 0 15px;
+    background-color: navy;
 }
 
 #banner .navigation a {
@@ -48,25 +56,31 @@ h2 {
 }
 
 #education {
-
+  background-color: darkblue;
+  color: silver;
 }
 
 #experience {
-
+  background-color: darkblue;
+  color: silver;
 }
 
 #research {
-
+  background-color: darkblue;
+  color: silver;
 }
 
 #skills {
-
+  background-color: darkblue;
+  color: silver;
 }
 
 #awards {
-
+  background-color: darkblue;
+  color: silver;
 }
 
 #references {
-
+  background-color: darkblue;
+  color: silver;
 }
