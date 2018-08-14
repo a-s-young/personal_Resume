@@ -13,12 +13,14 @@ html {
   color: white;
   text-align: left;
   margin: 0 auto;
+  font-size: 50px;
 }
 
 #banner p {
   color: silver;
   text-align: left;
   margin-left: 25px;
+  font-size: 25px;
 }
 
 #banner .navigation {
@@ -53,34 +55,70 @@ h2 {
   border: 5px inset navy;
   border-radius: 50px;
   background-color: blue;
+  font-size: 35px;
 }
 
 #education {
   background-color: darkblue;
   color: silver;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin-top: 15px;
 }
 
 #experience {
   background-color: darkblue;
   color: silver;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin-top: 15px;
 }
 
 #research {
   background-color: darkblue;
   color: silver;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin-top: 15px;
 }
 
 #skills {
   background-color: darkblue;
   color: silver;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin-top: 15px;
 }
 
 #awards {
   background-color: darkblue;
   color: silver;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin-top: 15px;
 }
 
 #references {
   background-color: darkblue;
   color: silver;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+}
+
+#footer .contact {
+  float: right;
+  height: 15px;
+  width: 25px;
+  font-size: 15px;
+  padding: 5px;
+  border: 1px outset white;
+  border-radius: 2px;
+  clear: right;
 }
