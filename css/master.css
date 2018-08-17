@@ -26,7 +26,7 @@ html {
 #banner .navigation {
   text-align: center;
   margin: 20px 50px;
-
+  display: block;
 }
 
 #banner .navigation ul {
@@ -39,8 +39,9 @@ html {
   display: inline-block;
   padding: 10px;
   border: 2px solid black;
-  margin: 0 15px;
-    background-color: navy;
+  margin: 0 25px;
+  width: 100px;
+  background-color: navy;
 }
 
 #banner .navigation a {
@@ -58,29 +59,43 @@ h2 {
   font-size: 35px;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #education {
   background-color: darkblue;
   color: silver;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-bottom: 10px;
   margin-top: 15px;
+}
+
+#education ol {
+
 }
 
 #experience {
   background-color: darkblue;
   color: silver;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-bottom: 10px;
   margin-top: 15px;
+}
+
+#experience ol {
+
 }
 
 #research {
   background-color: darkblue;
   color: silver;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-bottom: 10px;
   margin-top: 15px;
 }
@@ -89,7 +104,7 @@ h2 {
   background-color: darkblue;
   color: silver;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-bottom: 10px;
   margin-top: 15px;
 }
@@ -98,7 +113,7 @@ h2 {
   background-color: darkblue;
   color: silver;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-bottom: 10px;
   margin-top: 15px;
 }
@@ -107,18 +122,21 @@ h2 {
   background-color: darkblue;
   color: silver;
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   padding-bottom: 10px;
   margin-top: 15px;
 }
 
-#footer .contact {
-  float: right;
-  height: 15px;
-  width: 25px;
-  font-size: 15px;
-  padding: 5px;
+#footer {
+  margin: 10px auto;
+  border-radius: 5px;
   border: 1px outset white;
-  border-radius: 2px;
-  clear: right;
+  height: 25px;
+  width: 40px;
+  padding: 5px;
+}
+
+#footer .contact {
+  text-align: center;
+  font-size: 15px;
 }
